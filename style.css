@@ -63,13 +63,11 @@ li {
   }
 
     .blog{
-        height: 1400px;
         width: 600px;
         float: left;
     }
 
     .side-bar{
-        height: 1400px;
         width: 240px;
         float: left;
     }
