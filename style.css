@@ -36,12 +36,26 @@ li {
   .main-visual{
       height: 300px;
       width: 100%;
+      background-image: url(img/mv.jpg);
+      background-size: cover;
+      background-position: center;
   }
 
     .main-visual-content{
         height: 300px;
-        width: 350px;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding-top: 105px;
     }
+
+        .main-visual-text{
+            color: #fff;
+        }
+        .main-visual-name{
+            margin-top: 30px;
+            color: #fff;
+        }
 
   .main{
      margin: 0 auto;
