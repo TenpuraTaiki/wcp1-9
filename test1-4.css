@@ -9,3 +9,13 @@ header{
 .nav{
     text-align: center;
 }
+
+.waku{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #fa5893;
+}
+
+.chiten{
+    color: #fa5893
+}
