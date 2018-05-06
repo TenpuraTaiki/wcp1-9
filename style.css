@@ -8,58 +8,49 @@
   .header{
       height: 120px;
       width: 100%;
-      background-color: red
   }
 
      .header-top{
       height: 70px;
       width: 100%;
-      background-color: hotpink
   }
 
       .header-bottom{
       height: 50px;
       width: 100%;
-      background-color: pink
   }
 
 
   .main-visual{
       height: 300px;
       width: 100%;
-      background-color: orange
   }
 
     .main-visual-content{
         height: 300px;
         width: 350px;
-        background-color: gold
     }
 
   .main{
      margin: 0 auto;
       width: 840px;
-      background-color: green
   }
 
     .blog{
         height: 1400px;
         width: 600px;
-        background-color: limegreen;
         float: left;
     }
 
     .side-bar{
         height: 1400px;
         width: 240px;
-        background-color: palegreen;
         float: left;
     }
 
   .footer{
       height: 120px;
       width: 100%;
-      background-color: blue
   }
 
 .clearfix::after{
