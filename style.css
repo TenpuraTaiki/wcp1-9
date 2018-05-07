@@ -34,6 +34,7 @@ header .headline{
 .social i{
     display: inline-block;
     margin-left: 20px;
+    color: black;
 }
 
 .nav-list{
@@ -220,4 +221,24 @@ footer{
     display: block;
     clear: both;
 
+}
+
+/* れすぽんしぶ対応 */
+
+@media screen and (max-width:1024px){
+    .social i{
+        color: green;
+    }
+}
+
+@media screen and (max-width:768px){
+    .social i{
+        color: red;
+    }
+}
+
+@media screen and (max-width:425px){
+    .social i{
+        color: blue;
+    }
 }
