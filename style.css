@@ -225,8 +225,45 @@ footer{
 
 /* れすぽんしぶ対応 */
 
-@media screen and (max-width:768px){
-    .social i{
-        color: red;
+@media screen and (max-width:425px){
+    header{
+        width: 100%;
     }
+    .social{
+        right: 2px;
+    }
+    .social i{
+        margin-left: 5px;
+    }
+    .nav-list{
+        width: 100%;
+    }
+    .main-visual-content{
+        padding-top: 80px;
+    }
+    main{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .blog{
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+    .blog-image{
+        width: 48%;
+        padding-top: 30px;
+    }
+    .blog-text{
+        width: 48%;
+    }
+    .pagination{
+        margin-bottom: 30px;
+    }
+    .side-bar{
+        float: none;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
 }
